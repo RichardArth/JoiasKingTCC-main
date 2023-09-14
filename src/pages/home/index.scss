@@ -1,0 +1,26 @@
+.cabecalho-home{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho-home .cabecalho-cima{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-cima h4{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.cb-baixo img{
+    width: 100vw;    
+    height: 45vh;
+    flex-wrap: nowrap;
+    background-size: cover;
+    margin-top: 15px;
+    box-shadow: 2px 2px 28px #4e4e4e;
+}
